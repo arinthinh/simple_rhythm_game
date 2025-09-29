@@ -1,0 +1,77 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62e704d964ab40eb8651cde1cf757d84, type: 3}
+  m_Name: SongConfigSO
+  m_EditorClassIdentifier: 
+  Songs:
+  - SongName: 1
+    AudioClip: {fileID: 8300000, guid: c62b137152b2bd54f8c05395dc4891b0, type: 3}
+    BeatmapJson: '{   "Lanes": 3,   "OffsetMs": 0,   "Notes": [     { "T": 2000,
+      "Lane": 0 },     { "T": 2750, "Lane": 1 },     { "T": 3500, "Lane": 2 },    
+      { "T": 4250, "Lane": 0 },     { "T": 5000, "Lane": 1 },     { "T": 5750, "Lane":
+      2 },     { "T": 6500, "Lane": 0 },     { "T": 7250, "Lane": 1 },     { "T":
+      8000, "Lane": 2 },     { "T": 8750, "Lane": 0 },     { "T": 9500, "Lane": 1
+      }   ] }'
+  - SongName: 2
+    AudioClip: {fileID: 8300000, guid: ccd9fa84790c77043ad3932eda39dbaf, type: 3}
+    BeatmapJson: '{   "Lanes": 3,   "OffsetMs": 0,   "Notes": [     { "T": 2000,
+      "Lane": 0 },     { "T": 2500, "Lane": 1 },     { "T": 3000, "Lane": 2 },    
+      { "T": 3500, "Lane": 0 },     { "T": 4000, "Lane": 1 },     { "T": 4500, "Lane":
+      2 },     { "T": 5000, "Lane": 0 },     { "T": 5500, "Lane": 1 },     { "T":
+      6000, "Lane": 2 },     { "T": 6500, "Lane": 0 },     { "T": 7000, "Lane": 1
+      },     { "T": 7500, "Lane": 2 },     { "T": 8000, "Lane": 0 },     { "T": 8500,
+      "Lane": 1 },     { "T": 9000, "Lane": 2 },     { "T": 9500, "Lane": 0 },    
+      { "T": 10000, "Lane": 1 },     { "T": 10500, "Lane": 2 },     { "T": 11000,
+      "Lane": 0 },     { "T": 11500, "Lane": 1 },     { "T": 12000, "Lane": 2 },    
+      { "T": 12500, "Lane": 0 },     { "T": 13000, "Lane": 1 },     { "T": 13500,
+      "Lane": 2 },     { "T": 14000, "Lane": 0 },     { "T": 14500, "Lane": 1 },    
+      { "T": 15000, "Lane": 2 },     { "T": 15500, "Lane": 0 },     { "T": 16000,
+      "Lane": 1 },     { "T": 16500, "Lane": 2 },     { "T": 17000, "Lane": 0 },    
+      { "T": 17500, "Lane": 1 },     { "T": 18000, "Lane": 2 },     { "T": 18500,
+      "Lane": 0 },     { "T": 19000, "Lane": 1 },     { "T": 19500, "Lane": 2 },    
+      { "T": 20000, "Lane": 0 },     { "T": 20500, "Lane": 1 },     { "T": 21000,
+      "Lane": 2 },     { "T": 21500, "Lane": 0 },     { "T": 22000, "Lane": 1 },    
+      { "T": 22500, "Lane": 2 },     { "T": 23000, "Lane": 0 },     { "T": 23500,
+      "Lane": 1 },     { "T": 24000, "Lane": 2 },     { "T": 24500, "Lane": 0 },    
+      { "T": 25000, "Lane": 1 },     { "T": 25500, "Lane": 2 },     { "T": 26000,
+      "Lane": 0 },     { "T": 26500, "Lane": 1 },     { "T": 27000, "Lane": 2 },    
+      { "T": 27500, "Lane": 0 },     { "T": 28000, "Lane": 1 },     { "T": 28500,
+      "Lane": 2 },     { "T": 29000, "Lane": 0 },     { "T": 29500, "Lane": 1 }  
+      ] }'
+  - SongName: 3
+    AudioClip: {fileID: 8300000, guid: 3a7c4f72c74bcbd4ca58f8dcda37f8b9, type: 3}
+    BeatmapJson: '{   "Lanes": 3,   "OffsetMs": 0,   "Notes": [     { "T": 2000,
+      "Lane": 0 },     { "T": 2667, "Lane": 1 },     { "T": 3333, "Lane": 2 },    
+      { "T": 4000, "Lane": 0 },     { "T": 4667, "Lane": 1 },     { "T": 5333, "Lane":
+      2 },     { "T": 6000, "Lane": 0 },     { "T": 6667, "Lane": 1 },     { "T":
+      7333, "Lane": 2 },     { "T": 8000, "Lane": 0 },     { "T": 8667, "Lane": 1
+      },     { "T": 9333, "Lane": 2 },     { "T": 10000, "Lane": 0 },     { "T":
+      10667, "Lane": 1 },     { "T": 11333, "Lane": 2 },     { "T": 12000, "Lane":
+      0 },     { "T": 12667, "Lane": 1 },     { "T": 13333, "Lane": 2 },     { "T":
+      14000, "Lane": 0 },     { "T": 14667, "Lane": 1 },     { "T": 15333, "Lane":
+      2 },     { "T": 16000, "Lane": 0 },     { "T": 16667, "Lane": 1 },     { "T":
+      17333, "Lane": 2 },     { "T": 18000, "Lane": 0 },     { "T": 18667, "Lane":
+      1 }   ] }'
+  - SongName: 4
+    AudioClip: {fileID: 8300000, guid: bfef7e0112bf67e459496c7dbc0cf2a0, type: 3}
+    BeatmapJson: '{   "Lanes": 3,   "OffsetMs": 0,   "Notes": [     { "T": 2000,
+      "Lane": 0 },     { "T": 2722, "Lane": 1 },     { "T": 3444, "Lane": 2 },    
+      { "T": 4166, "Lane": 0 },     { "T": 4888, "Lane": 1 },     { "T": 5610, "Lane":
+      2 },     { "T": 6332, "Lane": 0 },     { "T": 7054, "Lane": 1 },     { "T":
+      7776, "Lane": 2 },     { "T": 8498, "Lane": 0 },     { "T": 9220, "Lane": 1
+      },     { "T": 9942, "Lane": 2 },     { "T": 10664, "Lane": 0 },     { "T":
+      11386, "Lane": 1 },     { "T": 12108, "Lane": 2 },     { "T": 12830, "Lane":
+      0 },     { "T": 13552, "Lane": 1 },     { "T": 14274, "Lane": 2 },     { "T":
+      14996, "Lane": 0 },     { "T": 15718, "Lane": 1 },     { "T": 16440, "Lane":
+      2 },     { "T": 17162, "Lane": 0 },     { "T": 17884, "Lane": 1 },     { "T":
+      18606, "Lane": 2 },     { "T": 19328, "Lane": 0 },     { "T": 20050, "Lane":
+      1 },     { "T": 20772, "Lane": 2 },     { "T": 21494, "Lane": 0 }   ] }'
